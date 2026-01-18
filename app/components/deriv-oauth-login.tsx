@@ -21,7 +21,7 @@ export function DerivOAuthLogin({ onLoginSuccess, isVisible, onToggle }: DerivOA
 
     try {
       // Deriv OAuth flow
-      const clientId = '121704' // Your custom Deriv app ID
+      const clientId = '1089' // Default Deriv app ID (working)
       const redirectUri = encodeURIComponent(window.location.origin + '/auth/callback')
       const scope = 'read,payments' // Permissions we need
       
