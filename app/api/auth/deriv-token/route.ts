@@ -43,13 +43,15 @@ export async function POST(request: NextRequest) {
       }
     })
 
-    let userData = { access_token: tokenData.access_token }
+    let userData: any = { 
+      access_token: tokenData.access_token,
+      app_id: '1089',
+      expires_in: tokenData.expires_in || 3600
+    }
+    
     if (userResponse.ok) {
       const userInfo = await userResponse.json()
-      userData = {
-        ...userData,
-        user: userInfo
-      }
+      userData.user = userInfo
     }
 
     return NextResponse.json(userData)
