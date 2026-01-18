@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
       },
       body: new URLSearchParams({
         grant_type: 'authorization_code',
-        client_id: '1089', // Default Deriv app ID
+        client_id: '121704', // Your custom Deriv app ID
         code: code,
         redirect_uri: `${request.nextUrl.origin}/auth/callback`
       })
@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
 
     let userData: any = { 
       access_token: tokenData.access_token,
-      app_id: '1089',
+      app_id: '121704',
       expires_in: tokenData.expires_in || 3600
     }
     

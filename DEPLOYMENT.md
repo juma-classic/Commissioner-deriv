@@ -45,7 +45,7 @@ Copy `.env.example` to `.env.local` and configure:
 
 ```bash
 # Required for OAuth login
-NEXT_PUBLIC_DERIV_APP_ID=1089
+NEXT_PUBLIC_DERIV_APP_ID=121704
 NEXT_PUBLIC_DERIV_API_URL=wss://ws.derivws.com/websockets/v3
 
 # Optional customizations
@@ -99,7 +99,7 @@ NEXT_PUBLIC_TELEGRAM_URL=https://t.me/your_username
 
 2. **Configure Variables**
    ```bash
-   railway variables set NEXT_PUBLIC_DERIV_APP_ID=1089
+   railway variables set NEXT_PUBLIC_DERIV_APP_ID=121704
    ```
 
 ### Docker Deployment

@@ -38,7 +38,7 @@ This guide will help you connect your Dev Dashboard to your real Deriv account t
 
 3. **Enter your credentials**
    - **API Token**: Paste the token you copied from Deriv
-   - **App ID**: Use `1089` (default) or your own registered app ID
+   - **App ID**: Use `121704` (your custom app ID) or register your own
    - Click "Test Connection" to verify it works
    - Click "Save Config" to store the settings
 
@@ -101,7 +101,7 @@ The dashboard fetches data from these Deriv API endpoints:
 If you want to use your own Deriv app:
 1. Register at [developers.deriv.com](https://developers.deriv.com)
 2. Create a new app
-3. Use your app ID instead of the default `1089`
+3. Use your app ID instead of the default `121704`
 
 ### Data Refresh
 - Data refreshes automatically when you open the dashboard

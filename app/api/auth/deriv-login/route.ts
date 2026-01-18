@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
     // For demo purposes, accept any email/password combination
     const mockUserData = {
       access_token: `mock_token_${Date.now()}`,
-      app_id: '1089',
+      app_id: '121704',
       user: {
         id: 'user_123',
         email: email,

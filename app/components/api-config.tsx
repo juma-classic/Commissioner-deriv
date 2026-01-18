@@ -12,7 +12,7 @@ interface ApiConfigProps {
 
 export function ApiConfig({ onConfigSave, onTestConnection, isVisible, onToggle }: ApiConfigProps) {
   const [apiToken, setApiToken] = useState('')
-  const [appId, setAppId] = useState('1089') // Default Deriv app ID
+  const [appId, setAppId] = useState('121704') // Your custom Deriv app ID
   const [showToken, setShowToken] = useState(false)
   const [isTestingConnection, setIsTestingConnection] = useState(false)
   const [connectionStatus, setConnectionStatus] = useState<'idle' | 'success' | 'error'>('idle')
@@ -53,7 +53,7 @@ export function ApiConfig({ onConfigSave, onTestConnection, isVisible, onToggle 
       try {
         const config = JSON.parse(saved)
         setApiToken(config.apiToken || '')
-        setAppId(config.appId || '1089')
+        setAppId(config.appId || '121704')
       } catch (e) {
         console.error('Failed to load saved config')
       }
@@ -128,11 +128,11 @@ export function ApiConfig({ onConfigSave, onTestConnection, isVisible, onToggle 
                 type="text"
                 value={appId}
                 onChange={(e) => setAppId(e.target.value)}
-                placeholder="1089"
+                placeholder="121704"
                 className="w-full px-3 py-2 border border-border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary"
               />
               <p className="text-xs text-muted-foreground mt-1">
-                Default: 1089 (you can use this or register your own app)
+                Default: 121704 (you can use this or register your own app)
               </p>
             </div>
 

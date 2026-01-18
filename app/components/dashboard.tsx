@@ -102,7 +102,7 @@ export function Dashboard() {
     if (userData.access_token) {
       const success = await initializeAPI({
         apiToken: userData.access_token,
-        appId: userData.app_id || '1089'
+        appId: userData.app_id || '121704'
       })
       
       if (success) {
@@ -133,7 +133,7 @@ export function Dashboard() {
         if (session.token) {
           initializeAPI({
             apiToken: session.token,
-            appId: session.app_id || '1089'
+            appId: session.app_id || '121704'
           }).then((success) => {
             if (success) {
               fetchCommissionData().then(() => {
