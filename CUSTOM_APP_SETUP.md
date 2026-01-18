@@ -6,9 +6,9 @@ This guide will help you properly register your custom Deriv app ID `121704` for
 
 The error "The request is missing a valid app_id" indicates that app ID `121704` is not properly registered in Deriv's OAuth system.
 
-## 🔧 **Quick Fix (Temporary)**
+## ✅ **Status: Custom App Registered**
 
-I've temporarily reverted to the default app ID `1089` so your OAuth login works immediately. This allows users to login while we set up your custom app.
+Your custom app ID `121704` has been successfully registered and is now active in the dashboard!
 
 ## 📋 **Steps to Register Your Custom App**
 
@@ -160,11 +160,13 @@ Could you please help me:
 Thank you!
 ```
 
-## 🚀 **Next Steps**
+## 🚀 **Current Status**
 
-1. **Immediate**: Use the dashboard with default app ID `1089` (currently working)
-2. **Short-term**: Register your custom app with Deriv
-3. **Long-term**: Update dashboard to use your custom app ID
+✅ **Custom app ID `121704` is now active**  
+✅ **OAuth login using your registered app**  
+✅ **All functionality working with custom app**  
+
+Your dashboard now uses your properly registered Deriv application for OAuth authentication!
 
 Let me know once you have your app properly registered, and I'll help you update the dashboard configuration!
 
