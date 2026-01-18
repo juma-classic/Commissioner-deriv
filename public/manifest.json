@@ -1,0 +1,58 @@
+{
+  "name": "Dev Dashboard",
+  "short_name": "Dev Dashboard",
+  "description": "Track your deriv markup commission and get more insights",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["finance", "productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/dashboard_logo.svg",
+      "sizes": "48x48 96x96 144x144 192x192 256x256 384x384 512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/dashboard_logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/dashboard_logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/dashboard_logo.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Dashboard Overview"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your commission dashboard",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/dashboard_logo.svg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
